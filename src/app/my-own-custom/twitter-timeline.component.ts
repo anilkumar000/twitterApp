@@ -6,7 +6,7 @@ import { TwitterService } from '../twitter.service';
   selector: 'app-twitter-timeline',
   templateUrl: './twitter-timeline.component.html',
   styleUrls: ['./twitter-timeline.component.css'],
-  providers:[ TwitterService ],
+  providers: [ TwitterService ],
   
   
 })

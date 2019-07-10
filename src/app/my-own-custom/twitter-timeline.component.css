@@ -1,3 +1,10 @@
 #mCard {
-float: right;
+/* float: right; */
+background-color: antiquewhite;
+width: 500px;
+/* padding-left: 10px; */
+}
+
+#ngforCards{
+    padding-left: 350px;
 }
