@@ -1,0 +1,17 @@
+<h1>Tweeter Timeline</h1>
+<!-- <div *ngIf="undefined === myTimeline">Loading...</div>
+<div *ngIf="undefined !== myTimeline"> -->
+
+  <div class ="card">
+    <div *ngFor="let tweets of myTimeline.data">
+     <mat-card id="mCard">
+        <h3>{{tweets.full_text}}</h3>
+        <p>{{tweets.created_at}}</p>
+        <p>{{tweets.user.name}}</p>
+        <p>{{tweets.user.screen_name}}</p>
+        <p>{{tweets.user.location}}</p>
+        <p>{{tweets.user.description}}</p><br>
+      </mat-card>
+    </div>
+  </div>
+
